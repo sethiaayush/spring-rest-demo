@@ -1,0 +1,15 @@
+spring-rest-demo
+
+1. Open DemoAppConfig class and look for annotations.
+2. Open MySpringDispatcherServletInitializer class and look for Parent class.
+This is the configuration part to make the project spring readable.
+
+3. Open DemoRestController and make it get hit using postman.
+Use http://localhost:8180/spring-rest-demo/test/hello.
+
+Debug is supported.
+
+Open StudentController
+4. Make a hit to http://localhost:8180/spring-rest-demo/api/student
+and to http://localhost:8180/spring-rest-demo/api/student/1
+Check for StudentNotFoundException.
