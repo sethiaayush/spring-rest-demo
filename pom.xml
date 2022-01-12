@@ -9,7 +9,7 @@
 	<name>spring-rest-demo Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
-		<springframework.version>5.2.3.RELEASE</springframework.version>
+		<springframework.version>5.3.14</springframework.version>
 		<java.compile.source>1.8</java.compile.source>
 		<java.compile.target>1.8</java.compile.target>
 	</properties>
