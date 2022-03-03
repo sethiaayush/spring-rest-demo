@@ -12,4 +12,13 @@ Debug is supported.
 Open StudentController
 4. Make a hit to http://localhost:8180/spring-rest-demo/api/student
 and to http://localhost:8180/spring-rest-demo/api/student/1
-Check for StudentNotFoundException.
+5. Check for StudentNotFoundException.
+6. Open StudentRestExceptionHandler, with annotation:- @ControllerAdvice.
+7. Check how Error Message class:- StudentErrorResponse is used to provide message in response to user.
+
+
+
+Links to read:-
+1.https://github.com/FasterXML/jackson-annotations/wiki/Jackson-Annotations
+2.https://www.freeformatter.com/mime-types-list.html
+3.https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html

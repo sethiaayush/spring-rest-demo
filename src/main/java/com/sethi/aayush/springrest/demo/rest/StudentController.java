@@ -24,7 +24,7 @@ public class StudentController {
 		studentList = new ArrayList<>();
 		studentList.add(new Student("Aman", "Gandhi"));
 		studentList.add(new Student("Vivek", "Singh"));
-		studentList.add(new Student("Sid", "Bengali"));
+		studentList.add(new Student("Sid", "Maity"));
 	}
 
 	@GetMapping("/student")
